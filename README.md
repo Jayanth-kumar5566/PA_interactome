@@ -2,4 +2,8 @@
 
 ## To Do
 1. Add data both EMBARC and CAMEB2 datasets
+  a. Done
 2. Analyse them
+  a. Does PA vary across geographical regions?
+  b. How does their interactome vary across geographical regions?
+  c. PA abundance vs. Diversity -- graph relationship? Mathematically related, what's the pattern? Simulation study? 
