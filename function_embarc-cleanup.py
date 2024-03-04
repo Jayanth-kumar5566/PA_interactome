@@ -1,4 +1,4 @@
-def get_embarc_data(type_):
+def get_embarc_data(type_,emb_cols):
   import pandas
   import numpy
   #Meta data
@@ -41,5 +41,5 @@ def get_embarc_data(type_):
   micro=micro.loc[:,sel_ind]
   
   #======Add region and other variables to the micro file======
-  micro.loc[:,["European_Region","FrequentExacerbator","Severity"]]=df.loc[:,["European_Region","FrequentExacerbator","Severity"]].values
+  micro.loc[:,emb_cols]=df.loc[:,emb_cols].values
   return(micro)
